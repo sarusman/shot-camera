@@ -1,4 +1,3 @@
-#Shot-Frame
 Surveillance camera :
 
 Image taken when something moves!
