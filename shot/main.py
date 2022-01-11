@@ -33,7 +33,7 @@ def mail( dmail, nom):
 	conex.ehlo()
 	conex.starttls()
 	conex.ehlo()
-	conex.login('mobilitchi@gmail.com', 'sarusman1971')
+	conex.login('mobilitchi@gmail.com', '*')
 	conex.sendmail('mobilitchi@gmail.com', dmail ,message.as_string())
 	conex.quit()
 	return True
